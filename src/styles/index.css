@@ -1,0 +1,84 @@
+@font-face {
+  font-family: 'IBM VGA 8x16';
+  src: url(/fonts/WebPlus_IBM_VGA_8x16.woff) format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  color: #989898;
+  background-color: #000000;
+  font-family: 'IBM VGA 8x16', monospace;
+  font-size: 16px;
+  line-height: 16px;
+}
+
+.root {
+  max-width: 80ch;
+  margin-block: 3em;
+  margin-inline: auto;
+  padding-inline: 1em;
+}
+
+h1,
+h2 {
+  color: #fefefe;
+  margin-bottom: 1em;
+  margin-top: 2em;
+  font-weight: normal;
+  font-size: 1em;
+}
+
+h1::before,
+h2::before {
+  color: #fffe46;
+  content: 'Shell> ';
+}
+
+h1::after,
+h2::after {
+  content: '.rst';
+}
+
+p {
+  margin: 0;
+}
+
+.paragraph {
+  margin-block: 1em;
+}
+
+em {
+  color: #fefefe;
+  font-style: normal;
+}
+
+strong {
+  color: #fffe46;
+  font-style: normal;
+}
+
+a {
+  color: #00f900;
+}
+
+ul {
+  margin-block: 1em;
+  list-style: '* ';
+}
+
+dt {
+  color: #fffe46;
+  margin-block: 1em;
+}
+
+dt::before {
+  content: '> ';
+}

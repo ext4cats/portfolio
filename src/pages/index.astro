@@ -1,5 +1,5 @@
 ---
-
+import '../styles/index.css';
 ---
 
 <html lang="en">
@@ -8,9 +8,110 @@
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="viewport" content="width=device-width" />
     <meta name="generator" content={Astro.generator} />
-    <title>Astro</title>
+    <title>ext4cats' site</title>
   </head>
   <body>
-    <h1>Astro</h1>
+    <div class="root">
+      <header>
+        <p>EFIcats Interactive Shell v0.1.0</p>
+        <p>{Astro.generator}</p>
+        <p>Unknown Browser vX.XX</p>
+        <p>
+          Press <em>Backspace</em> in ??? seconds to skip <strong
+            >readingtime.nsh</strong
+          > or continue reading.
+        </p>
+      </header>
+      <main>
+        <section>
+          <h1>ext4cats' site</h1>
+          <p class="paragraph">
+            Hey there, welcome to my personal site. I go by both EFIcats and
+            ext4cats online, but you can call me Alex. I do computer wizardry
+            for a living, and mostly play videogames during my time off.
+          </p>
+          <p class="paragraph">
+            Professionally, I handle backend development, deployment, and
+            sporadic infrastructure maintenance roles. On my free time, I also
+            dabble in web design for my own projects.
+          </p>
+          <p class="paragraph">
+            farmarrays.com is where I host all of my personal projects —
+            alongside my personal e-mail, and my Bluesky handle. You can find
+            all of my socials below.
+          </p>
+        </section>
+        <section>
+          <h2>My socials</h2>
+          <ul>
+            <li>
+              Follow me on <a
+                href="https://bsky.app/profile/ext4cats.farmarrays.com"
+                >Bluesky</a
+              >.
+            </li>
+            <li>
+              Check out my code on <a href="https://github.com/ext4cats"
+                >GitHub</a
+              >.
+            </li>
+            <li>
+              Send business inquiries to my <a
+                href="mailto:ext4cats@farmarrays.com">e-mail</a
+              >.
+            </li>
+          </ul>
+        </section>
+        <section>
+          <h2>My projects</h2>
+          <dl>
+            <dt><a href="https://tmcvf.farmarrays.com">tmcvf</a></dt>
+            <dd>A tiny video converter powered by ffmpeg.wasm.</dd>
+          </dl>
+        </section>
+        <section>
+          <h2>My skills</h2>
+          <dl>
+            <dt>TypeScript / JavaScript</dt>
+            <dd>
+              My main highlight, and what I use every day at work. I know the
+              ins and outs of the type system well, and can handle setting up
+              all of the necessary tooling to manage TS/JS projects. I use <em
+                >NestJS</em
+              > for backend work and <em>React</em> for frontend work, with <em
+                >PNPM</em
+              > as my package manager of choice.
+            </dd>
+            <dt>Docker</dt>
+            <dd>
+              My closest friend; both when setting up local environments and
+              production deployments. I can handle writing complex multi-stage
+              Dockerfiles to build applications of any size and shape, and tie
+              it all together with docker-compose.
+            </dd>
+            <dt>Linux</dt>
+            <dd>
+              My operating system of choice for development workloads. I have no
+              issues with performing basic system maintenance, writing basic
+              shell scripts, and general usage of the command line.
+            </dd>
+            <dt>PostgreSQL</dt>
+            <dd>
+              My database of choice, but I can also handle other dialects. I can
+              design database schemas and write complex queries to suit my
+              needs.
+            </dd>
+            <dt>Proxmox / QEMU / libvirt / Baremetal deployment</dt>
+            <dd>
+              I can manage setup and maintenance of virtual machines, with all
+              the necessary virtual hardware configurations. I can set up both
+              Linux and Windows based systems.
+            </dd>
+            <dt>Git</dt>
+            <dd>The bread and butter of any developer. (I hope.)</dd>
+          </dl>
+        </section>
+      </main>
+    </div>
   </body>
 </html>
