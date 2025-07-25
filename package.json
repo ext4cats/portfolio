@@ -12,6 +12,10 @@
     "preview": "astro preview",
     "format": "prettier --write ."
   },
+  "engines": {
+    "node": ">=22",
+    "pnpm": ">=10"
+  },
   "dependencies": {
     "astro": "^5.12.3"
   },
