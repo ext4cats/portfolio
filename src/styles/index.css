@@ -42,11 +42,6 @@ h2::before {
   content: 'Shell> ';
 }
 
-h1::after,
-h2::after {
-  content: '.rst';
-}
-
 p {
   margin: 0;
 }
